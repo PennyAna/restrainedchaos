@@ -1,31 +1,40 @@
 header {
 
 }
+body {
+    
+}
 .container {
 
 }
-
-#collapseAbout {
-
-}
-
-#aboutMe {
+.panel-group {
 
 }
-
-#collapseCode {
-
-}
-
-#codeMe {
+.panel-default{
 
 }
-
-#collapseResume {
+.panel-heading {
 
 }
+.panel-title {
 
-#resumeMe {
+}
+#collapse1 {
+
+}
+#collapse2 {
+    
+}
+#collapse3 {
+
+}
+.panel-collapse {
+
+}
+.panel-body {
+
+}
+.panel-footer {
 
 }
 footer {
@@ -34,3 +43,5 @@ footer {
 #contactMe {
 
 }
+   
+      

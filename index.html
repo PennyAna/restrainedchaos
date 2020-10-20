@@ -12,19 +12,46 @@
 <body>
     <header class="header"></header>
     <div class="container col-9 col-s-12">
-        <button id="collapseAbout" data-toggle="collapse" data-target="#aboutMe">About Me</button>
-        <div id="aboutMe">
-    
+        <div class="panel-group">
+            <div class="panel panel-default">   
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse1">About Me</a>
+                    </h4>
+                </div>
+            <div id="collapse1" class="panel-collapse collapse">
+                <div class="panel-body"></div>
+                <div class="panel-footer"></div>
+            </div>
         </div>
-        <button id="collapseCode" data-toggle="collapse" data-target="#codeMe">Code</button>
-        <div id="codeMe">
-            
-        </div>
-        <button id="collapseResume" data-toggle="collapse" data-target="#resumeMe">Resume</button>
-        <div id="resumeMe">
-           
+        <div class="panel-group">
+            <div class="panel panel-default">   
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#collapse2">About Me</a>
+                    </h4>
+                </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body"></div>
+                <div class="panel-footer"></div>
+            </div>
         </div>
     </div>
+    <div class="panel-group">
+        <div class="panel panel-default">   
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3">About Me</a>
+                </h4>
+            </div>
+        <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body"></div>
+            <div class="panel-footer"></div>
+        </div>
+    </div>
+</div>
+    </div>
+
     <footer class="footer">
         <div id="contactMe">
             <!--TODO make popup, sticky contact form w/button-->

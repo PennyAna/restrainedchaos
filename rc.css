@@ -61,13 +61,6 @@ h4 {
 	font-weight: bold;
 	font-size: 50px;
 }
-#phpMe {
-	background-color: #CB9CF2;
-	color: var(--color-dark);
-	border-radius: 20px;
-	text-align: center;
-	font-size: 18px;
-}
 h3 {
 	vertical-align: middle;
 }
@@ -102,13 +95,4 @@ h3 {
 	padding: 30px;
 	border-radius: 8px;
 	max-height: fit-content;
-}
-#delly {
-	max-width: 60%;
-	height: auto;
-}
-#assigns {
-	float: left;
-	margin-right: 150px;
-	margin-left: 75px;
 }

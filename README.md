@@ -1,2 +1,2 @@
 # RestrainedChaos
-E Portfolio for Nicole Lawrence
+Portfolio: Nicole Lawrence

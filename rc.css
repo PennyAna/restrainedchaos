@@ -42,6 +42,7 @@ body {
 	color: var(--color-dark-alt);
 	font-family: Bookman;
 	margin-bottom: 30px;
+	font-size: 17px;
 }
 #google_translate_element {
 	float: right;
@@ -54,18 +55,7 @@ hr {
 	border-top: 1px solid rgba(11, 0, 51, 1);
 	}
 
-h4 {
-	text-align: left;
-	height: 50px;
-	color: var(--color-dark-alt);
-	font-weight: bold;
-	font-size: 50px;
-}
-h3 {
-	vertical-align: middle;
-}
 .col-sm-9 {
-	font-size: 18px;
 	text-align: left;
 	max-width: 75%;
 }

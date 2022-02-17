@@ -1,3 +1,4 @@
 [submodule "Portfolio/js30"]
-	path = Portfolio/js30/index.html
+	path = Portfolio/js30
 	url = https://github.com/PennyAna/js30.git
+

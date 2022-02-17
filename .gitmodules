@@ -1,3 +1,6 @@
 [submodule "Portfolio/Portfolio/javascript_thirty"]
 	path = Portfolio/Portfolio/javascript_thirty
 	url = https://github.com/PennyAna/js30.git
+[submodule "Portfolio/js30"]
+	path = Portfolio/js30
+	url = https://github.com/PennyAna/js30.git

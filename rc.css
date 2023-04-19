@@ -76,13 +76,13 @@ hr {
 }
 
 #social1 {
-	width: 60%;
+	width: 4rem;
 	height: auto;
 	float: left;
 }
 
 #social2 {
-	width: 40%;
+	width: 2rem;
 	height: auto;
 	float: right;
 }

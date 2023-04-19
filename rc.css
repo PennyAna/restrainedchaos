@@ -76,14 +76,14 @@ hr {
 	text-align: center;
 }
 
-.social {
-	width: 50%;
+#social1 {
+	width: 70%;
 	height: auto;
 }
 
-.social-links {
-	width:fit-content;
-	height:fit-content;
+#social2 {
+	width: 50%;
+	height: auto;
 }
 
 .footer {

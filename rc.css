@@ -88,9 +88,7 @@ hr {
 .social-links {
 	width: fit-content;
 	height: fit-content;
-	list-style-type: none; /* Remove bullets */
-  	padding: 0; /* Remove padding */
-  	margin: 0; /* Remove margins */
+	float: right;
 }
 
 .footer {

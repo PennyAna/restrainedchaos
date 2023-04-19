@@ -76,8 +76,8 @@ hr {
 	text-align: center;
 }
 
-.git-link, .li-link {
-	max-width: 50px;
+.social {
+	max-width: 50%;
 	height: auto;
 }
 

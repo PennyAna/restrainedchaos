@@ -76,7 +76,7 @@ hr {
 	text-align: center;
 }
 
-li + .social {
+img .social {
 	width: 50%;
 	height: auto;
 }

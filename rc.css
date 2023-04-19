@@ -80,6 +80,12 @@ hr {
 	width: 50%;
 	height: auto;
 }
+
+.social-links {
+	width:fit-content;
+	height:fit-content;
+}
+
 .footer {
 	position: absolute;
 	bottom: 0;

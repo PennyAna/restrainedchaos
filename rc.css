@@ -76,19 +76,20 @@ hr {
 }
 
 #social1 {
-	width: 60px;
+	width: 50%;
 	height: auto;
+	float: left;
 }
 
 #social2 {
-	width: 50px;
+	width: 50%;
 	height: auto;
+	float: right;
 }
 
 .social-links {
-	width: fit-content;
-	height: fit-content;
-	float: right;
+	width: 100%;
+	height: auto;
 }
 
 .footer {

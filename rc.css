@@ -13,7 +13,6 @@ html {
 }
 
 container-fluid {
-
 	min-height: 100%;
 	margin: 0px;
 }
@@ -77,13 +76,18 @@ hr {
 }
 
 #social1 {
-	width: 70%;
+	width: 60px;
 	height: auto;
 }
 
 #social2 {
-	width: 50%;
+	width: 50px;
 	height: auto;
+}
+
+.social-links {
+	width: fit-content;
+	height: fit-content;
 }
 
 .footer {

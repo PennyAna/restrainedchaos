@@ -75,6 +75,12 @@ hr {
 	border-radius: 8px;
 	text-align: center;
 }
+
+.git-link, .li-link {
+	max-width: 50px;
+	height: auto;
+}
+
 .footer {
 	position: absolute;
 	bottom: 0;

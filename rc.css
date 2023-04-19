@@ -76,11 +76,10 @@ hr {
 	text-align: center;
 }
 
-.social {
+li + .social {
 	width: 50%;
 	height: auto;
 }
-
 .footer {
 	position: absolute;
 	bottom: 0;

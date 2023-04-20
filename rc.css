@@ -29,6 +29,7 @@ container-fluid {
 	margin-bottom: 0px;
 	/* padding: 20px; */
 	/* margin: 20px; */
+	position: sticky;
 }
 
 /* @media screen and (max-width: 767px) {
@@ -68,9 +69,7 @@ hr {
 	height: auto;
 	/* padding: 20px; */
 	margin: 0px;
-	border-style: solid;
-	border-width: 10px;
-	border-color: #4B1746;
+	border: 10px solid #4B1746;
 	border-radius: 8px;
 	text-align: center;
 }
@@ -78,19 +77,18 @@ hr {
 #social1 {
 	width: 55px;
 	height: 55px;
-	border: 4px solid #337ab7;
 }
 
 #social2 {
 	width: 55px;
 	height: 55px;
-	border: 4px solid #337ab7;
 }
 
 .social-links {
 	width: 80%;
 	height: auto;
 	align-content: center;
+	display: block;
 }
 
 .footer {

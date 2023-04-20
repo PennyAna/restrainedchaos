@@ -110,4 +110,5 @@ hr {
 	border-radius: 8px;
 	max-height: fit-content;
 	position: absolute;
+	float: right;
 }

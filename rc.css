@@ -65,15 +65,15 @@ hr {
 	text-align: left;
 	max-width: 75%;
 } */
-.img-thumbnail {
+/* .img-thumbnail {
 	max-width: 80%;
 	height: auto;
-	/* padding: 20px; */
+	/* padding: 20px; 
 	margin: 0px;
 	border: 10px solid #4B1746;
 	border-radius: 8px;
 	text-align: center;
-}
+} */
 
 #social1 {
 	width: 55px;
@@ -86,6 +86,7 @@ hr {
 }
 
 .social-links {
+	padding-top: 20%;
 	width: 80%;
 	height: auto;
 	align-content: center;
@@ -105,7 +106,7 @@ hr {
 #innerpage {
 	margin: 20px;
 	background-color:#f8f8f8;
-	padding: 30px;
+	padding: 30px 30px 20px;
 	border-radius: 8px;
 	max-height: fit-content;
 }

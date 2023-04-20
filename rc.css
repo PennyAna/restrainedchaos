@@ -30,7 +30,7 @@ container-fluid {
 	margin-bottom: 0px;
 	padding: 20px;
 	/* margin: 20px; */
-	position:fixed;
+	position: relative;
 	max-width: 15%;
 	/* 	top: 0;
 	left: 0;

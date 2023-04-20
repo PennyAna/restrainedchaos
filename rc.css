@@ -109,11 +109,10 @@ hr {
 	margin-top: 0px;
 }
 #innerpage {
-	margin: 20px;
 	background-color:#f8f8f8;
 	padding: 30px 30px 20px;
 	border-radius: 8px;
 	max-height: fit-content;
 	float: right;
-	margin-left: 220px; /* Added margin equal to sidebar width + 20px padding */
+	margin-left: 500px;
 }

@@ -76,15 +76,15 @@ hr {
 }
 
 #social1 {
-	width: 65px;
-	height: 65px;
-	float: left;
+	width: 55px;
+	height: 55px;
+	/* float: left; */
 }
 
 #social2 {
 	width: 55px;
 	height: 55px;
-	float: right;
+	/* float: right; */
 }
 
 .social-links {

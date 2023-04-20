@@ -28,26 +28,17 @@ container-fluid {
 	color: var(--color-light);
 	font-size: 20px;
 	margin-bottom: 0px;
-	/* padding: 20px; */
+	padding: 20px;
 	/* margin: 20px; */
 	position:fixed;
 	max-width: 15%;
-}
-
-/* 	top: 0;
+	/* 	top: 0;
 	left: 0;
 	Style for the sidebar */
+	display: block;
+}
 
-/* @media screen and (max-width: 767px) {
-	.sidenav {
-		height: auto;
-		padding: 15px;
-	}
-	.row.content {
-		height: auto;
-		width: auto;
-	}
-} */
+
 
 body {
 	background-color: var(--color-light);
@@ -65,20 +56,6 @@ hr {
 	border: 0;
 	border-top: 1px solid rgba(11, 0, 51, 1);
 	}
-
-/* .col-sm-9 {
-	text-align: left;
-	max-width: 75%;
-} */
-/* .img-thumbnail {
-	max-width: 80%;
-	height: auto;
-	/* padding: 20px; 
-	margin: 0px;
-	border: 10px solid #4B1746;
-	border-radius: 8px;
-	text-align: center;
-} */
 
 #social1 {
 	width: 55px;

@@ -23,13 +23,14 @@ container-fluid {
 .sidenav {
 	background-color: var(--color-dark);
 	height: 100%;
-	width: 15%;
+	min-width:fit-content;
 	color: var(--color-light);
 	font-size: 20px;
 	margin-bottom: 0px;
 	/* padding: 20px; */
 	/* margin: 20px; */
-	position: sticky;
+	position:fixed;
+	max-width: 15%;
 }
 
 /* @media screen and (max-width: 767px) {

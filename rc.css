@@ -78,18 +78,19 @@ hr {
 #social1 {
 	width: 55px;
 	height: 55px;
-	/* float: left; */
+	border: 4px solid #337ab7;
 }
 
 #social2 {
 	width: 55px;
 	height: 55px;
-	/* float: right; */
+	border: 4px solid #337ab7;
 }
 
 .social-links {
 	width: 80%;
 	height: auto;
+	align-content: center;
 }
 
 .footer {

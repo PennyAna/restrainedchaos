@@ -15,6 +15,7 @@ html {
 container-fluid {
 	min-height: 100%;
 	margin: 0px;
+	display:flex;
 }
 
 .row.content {
@@ -32,6 +33,10 @@ container-fluid {
 	position:fixed;
 	max-width: 15%;
 }
+
+/* 	top: 0;
+	left: 0;
+	Style for the sidebar */
 
 /* @media screen and (max-width: 767px) {
 	.sidenav {
@@ -109,6 +114,6 @@ hr {
 	padding: 30px 30px 20px;
 	border-radius: 8px;
 	max-height: fit-content;
-	position: absolute;
 	float: right;
+	margin-left: 220px; /* Added margin equal to sidebar width + 20px padding */
 }

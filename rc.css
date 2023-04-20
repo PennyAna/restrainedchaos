@@ -109,4 +109,5 @@ hr {
 	padding: 30px 30px 20px;
 	border-radius: 8px;
 	max-height: fit-content;
+	position: relative;
 }

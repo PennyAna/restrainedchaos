@@ -19,7 +19,7 @@ container-fluid {
 }
 
 .row.content {
-	height: 1800px;
+	height: auto;
 }
 .sidenav {
 	background-color: var(--color-dark);
@@ -30,7 +30,7 @@ container-fluid {
 	margin-bottom: 0px;
 	padding: 20px;
 	/* margin: 20px; */
-	position: relative;
+	position: fixed;
 	max-width: 15%;
 }
 
@@ -86,5 +86,5 @@ hr {
 	border-radius: 8px;
 	max-height: fit-content;
 	margin-left: 25%;
-	max-width:fit-content;
+	max-width: 80%;
 }

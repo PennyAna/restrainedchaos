@@ -32,9 +32,6 @@ container-fluid {
 	/* margin: 20px; */
 	position: relative;
 	max-width: 15%;
-	/* 	top: 0;
-	left: 0;
-	Style for the sidebar */
 }
 
 body {
@@ -90,5 +87,4 @@ hr {
 	max-height: fit-content;
 	float: right;
 	margin-left: 25%;
-	margin: 20px;
 }

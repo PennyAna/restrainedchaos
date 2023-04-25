@@ -81,10 +81,10 @@ hr {
 }
 
 #innerpage {
-	position: absolute;
 	background-color:#f8f8f8;
 	padding: 30px;
 	border-radius: 8px;
 	max-height: fit-content;
 	margin-left: 25%;
+	max-width:fit-content;
 }

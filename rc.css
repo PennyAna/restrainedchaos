@@ -67,7 +67,7 @@ hr {
 	height: auto;
 	align-content: center;
 	display: block;
-	margin-left: 20px;
+	margin-left: 20%;
 }
 
 .footer {
@@ -88,7 +88,6 @@ hr {
 	max-height: fit-content;
 	margin: 30px 30px 30px 25%;
 	max-width: 80%;
-	margin-bottom: 30px;
 }
 
 .info {

@@ -44,6 +44,9 @@ container-fluid {
 	position: fixed;
 	max-width: 15%;
 }
+.navbar-header {
+	margin: 30px;
+}
 #social1 {
 	width: 55px;
 	height: 55px;

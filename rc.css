@@ -128,6 +128,7 @@ form select {
 #contact-form {
 	position: relative;
 	color: var(--color-light);
+	background-color: hotpink;
 }
 #social1 {
 	width: 55px;

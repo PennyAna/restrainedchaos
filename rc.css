@@ -4,14 +4,14 @@
 	--color-dark-alt: #4B1746; /*dark purple*/
 	--color-accent: #CB9CF2; /*bright lilac*/
 	--color-light: #CBF3F0; /*light cyan*/
-	--color-light-alt: #E09F7D; /*antique brass*/
+	--color-light-alt: #56311d; /*antique brass*/
 }
 html {
 	position: relative;
 	min-height: 100%;
 }
 body {
-	color: var(--color-dark-alt);
+	color: var(--color-light-alt);
 	font-family: Bookman;
 	font-size: 17px;
 }
@@ -37,11 +37,10 @@ container-fluid {
 	background-color: var(--color-dark);
 	height: 100%;
 	min-width:fit-content;
-	color: var(--color-light);
+	color: var(--color-light-alt);
 	font-size: 20px;
 	margin: 0px 20px 0px 0px;
 	padding: 50px;
-	/* margin: 20px; */
 	position: fixed;
 	max-width: 15%;
 }
@@ -68,6 +67,7 @@ container-fluid {
 	max-height: fit-content;
 	margin: 30px;
 	max-width: 80%;
+	color: var(--color-light-alt);
 }
 .info {
 	list-style: none;

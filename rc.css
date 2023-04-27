@@ -47,6 +47,10 @@ container-fluid {
 .navbar-header {
 	margin: 30px;
 }
+#site-links {
+	position: relative;
+	margin: 20px;
+}
 #social1 {
 	width: 55px;
 	height: 55px;

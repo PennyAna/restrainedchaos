@@ -25,15 +25,18 @@ body {
 		background-color: var(--color-dark);
 	}
 }
-container-fluid {
+.container-fluid {
 	min-height: 100%;
 	margin: 0px;
 	display:grid;
 }
 .row {
-	height: auto;
+
 }
-.sidenav {
+.col-xs-2 container-fluid {
+
+}
+#sidenav {
 	background-color: var(--color-dark);
 	height: 100%;
 	min-width:fit-content;
@@ -46,6 +49,9 @@ container-fluid {
 }
 .navbar-header {
 	margin: 30px;
+}
+.navbar-brand {
+
 }
 #site-links {
 	position: relative;
@@ -67,6 +73,27 @@ container-fluid {
 	display: block;
 	margin-left: 20%;
 }
+.nav {
+
+}
+.nav-pills {
+
+}
+.nav-stacked {
+
+}
+.active {
+
+}
+#contact-form {
+
+}
+.social-link {
+
+}
+.col-xs-10 {
+
+}
 #innerpage {
 	background-color:#f0F9F9;
 	padding: 30px;
@@ -75,17 +102,33 @@ container-fluid {
 	margin: 30px;
 	max-width: 80%;
 	color: var(--color-light-alt);
+}	
+#edu {
+
+}
+#edu-list {
+
+}   
+#skills {
+
 }
 .info {
 	list-style: none;
+} 
+#skills-list {
+
 }
-#edu {
-}
-#skills {
-}
-#edu {
+#xp {
+
+}     
+#xp-list {
+
 }
 #vol {
+
+}
+#vol-list {
+
 }
 .footer {
 	position: absolute;

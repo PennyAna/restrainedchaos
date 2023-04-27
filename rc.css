@@ -54,7 +54,7 @@ body {
 
 }
 #site-links {
-	position: relative;
+	position: fixed;
 	margin: 20px;
 }
 /* reset 

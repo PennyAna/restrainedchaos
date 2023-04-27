@@ -16,6 +16,13 @@ html {
 	.container-fluid {
 		background-color: hotpink;
 	}
+	.sidenav {
+		float: left;
+
+	}
+	.inner-page {
+		float: right;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -28,7 +35,6 @@ container-fluid {
 	min-height: 100%;
 	margin: 0px;
 	display:grid;
-	grid-template-columns: 1fr;
 }
 
 .row.content {

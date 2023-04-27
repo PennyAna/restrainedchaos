@@ -127,7 +127,7 @@ form select {
 }*/
 #contact-form {
 	position: relative;
-	z-index: 1;
+	color: var(--color-light);
 }
 #social1 {
 	width: 55px;

@@ -12,10 +12,23 @@ html {
 	min-height: 100%;
 }
 
+@media screen and (min-width: 576px) {
+	.container-fluid {
+		background-color: hotpink;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.container-fluid {
+		background-color: yellow;
+	}
+}
+
 container-fluid {
 	min-height: 100%;
 	margin: 0px;
-	display:flex;
+	display:grid;
+	grid-template-columns: 1fr;
 }
 
 .row.content {

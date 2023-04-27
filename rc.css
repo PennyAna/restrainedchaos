@@ -39,8 +39,8 @@ container-fluid {
 	min-width:fit-content;
 	color: var(--color-light);
 	font-size: 20px;
-	margin: 0px 20px;
-	padding: 20px;
+	margin: 0px 20px 0px 0px;
+	padding: 50px;
 	/* margin: 20px; */
 	position: fixed;
 	max-width: 15%;

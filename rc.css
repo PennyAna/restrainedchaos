@@ -17,17 +17,17 @@ html {
 		background-color: hotpink;
 	}
 	.sidenav {
-		float: left;
+		
 
 	}
 	.inner-page {
-		float: right;
+	
 	}
 }
 
 @media screen and (min-width: 768px) {
 	.container-fluid {
-		background-color: yellow;
+		background-color: var(--color-dark);
 	}
 }
 

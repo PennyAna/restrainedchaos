@@ -54,14 +54,6 @@ body {
 #google_translate_element {
 	float: right;
 }
-hr {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	border: 0;
-	border-top: 1px solid rgba(11, 0, 51, 1);
-	width: 50%;
-	float: left;
-}
 #social1 {
 	width: 55px;
 	height: 55px;

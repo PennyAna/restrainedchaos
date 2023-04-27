@@ -71,7 +71,7 @@ form label,
   border: none;
   border-radius: 0;
   display: block;
-  width: 100%;
+  width: 80%;
   padding: 0;
   margin: 0;
   -webkit-appearance: none;
@@ -122,9 +122,11 @@ form [type="submit"]:focus,
 form [type="reset"]:focus {
   outline: none;
 }
-
 form select {
   text-transform: none;
+}
+#contact-form {
+	position: relative;
 }
 #social1 {
 	width: 55px;

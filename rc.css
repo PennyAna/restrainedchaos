@@ -39,7 +39,7 @@ container-fluid {
 	min-width:fit-content;
 	color: var(--color-light);
 	font-size: 20px;
-	margin-bottom: 0px;
+	margin: 0px 20px;
 	padding: 20px;
 	/* margin: 20px; */
 	position: fixed;
@@ -54,7 +54,7 @@ container-fluid {
 	height: 55px;
 }
 .social-links {
-	padding-top: 20%;
+	padding: 20%;
 	width: 80%;
 	height: auto;
 	align-content: center;

@@ -31,6 +31,11 @@ body {
 .col-xs-2 .container-fluid {
 	min-height: 100%;
 }
+.container-fluid {
+	min-height: 100%;
+	margin: 0px;
+	display:grid;
+}
 #sidenav {
 	background-color: var(--color-dark-alt);
 	height: 100%;

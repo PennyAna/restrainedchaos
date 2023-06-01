@@ -40,9 +40,9 @@ body {
 	color: var(--color-light-alt);
 	font-size: 20px;
 	margin: 0px;
-	padding: auto;
 	position: relative;
-	/* max-width: 15%; */
+	/*padding: auto;
+	 max-width: 15%; */
 }
 .navbar-header {
 	margin: 3vh;
@@ -140,11 +140,12 @@ body {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 30vh;
+	height: 30px;
 	background-color: #4B1746;
 	color: #CB9CF2;
 	text-align: center;
-	margin-top: 50vh;
+	margin-top: 5px;
+	padding: 2px;
 }
 
 /* reset 

@@ -27,7 +27,7 @@ body {
 }
 .row {
 }
-.col-xs-3 .container-fluid {
+.col-xs-2 .container-fluid {
 	width: fit-content;
 	min-height: 100%;
 }
@@ -169,7 +169,7 @@ form select {
 .social-link {
 
 }
-.col-xs-9 .container-fluid {
+.col-xs-10 .container-fluid {
 	min-height: 100%;
 }
 #innerpage {

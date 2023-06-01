@@ -7,7 +7,6 @@
 	--color-light-alt: #56311d; /*antique brass*/
 }
 html {
-	position: relative;
 	min-height: 100%;
 }
 body {
@@ -27,9 +26,8 @@ body {
 }
 .row {
 }
-.col-xs-2 .container-fluid {
+.col-xs-2 {
 	width: fit-content;
-	min-height: 100%;
 }
 .container-fluid {
 	min-height: 100%;
@@ -41,14 +39,14 @@ body {
 	min-width:fit-content;
 	color: var(--color-light-alt);
 	font-size: 20px;
-	margin: 0px 5vh 0px 0px;
+	margin: 0px;
 	padding: auto;
 	position: relative;
 	/* max-width: 15%; */
 }
 .navbar-header {
-	margin: 30vh;
-	height: 30vh;
+	margin: 3vh;
+	height: 3vh;
 	width: auto;
 }
 .navbar-brand {
@@ -60,6 +58,95 @@ body {
 	height: 30vh;
 	width: auto;
 }
+
+#contact-form {
+	position: relative;
+	color: var(--color-light-alt);
+	background-color: var(--color-light);
+	border-radius: 10px;
+	width: min-content;
+	padding: 40vh;
+}
+#social1 {
+	width: 10vh;
+	height: 10vh;
+}
+#social2 {
+	width: 10vh;
+	height: 10vh;
+}
+.social-links {
+	padding: 2vh;
+	width: 10vh;
+	height: auto;
+	align-content: center;
+	display: block;
+}
+.nav {
+
+}
+.nav-pills {
+
+}
+.nav-stacked {
+
+}
+.active {
+
+}
+#contact-form {
+
+}
+.social-link {
+
+}
+#innerpage {
+	background-color:#f0F9F9;
+	padding: 50vh;
+	border-radius: 8px;
+	max-height: fit-content;
+	margin: 50vh;
+	max-width: 80%;
+	color: var(--color-light-alt);
+}	
+#edu {
+
+}
+#edu-list {
+
+}   
+#skills {
+
+}
+.info {
+	list-style: none;
+} 
+#skills-list {
+
+}
+#xp {
+
+}     
+#xp-list {
+
+}
+#vol {
+
+}
+#vol-list {
+
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 30vh;
+	background-color: #4B1746;
+	color: #CB9CF2;
+	text-align: center;
+	margin-top: 50vh;
+}
+
 /* reset 
 form input,
 form select,
@@ -128,93 +215,3 @@ form [type="reset"]:focus {
 form select {
   text-transform: none;
 }*/
-#contact-form {
-	position: relative;
-	color: var(--color-light-alt);
-	background-color: var(--color-light);
-	border-radius: 10px;
-	width: min-content;
-	padding: 40vh;
-}
-#social1 {
-	width: 30vh;
-	height: 30vh;
-}
-#social2 {
-	width: 30vh;
-	height: 30vh;
-}
-.social-links {
-	padding: 20vh;
-	width: 80vh;
-	height: auto;
-	align-content: center;
-	display: block;
-}
-.nav {
-
-}
-.nav-pills {
-
-}
-.nav-stacked {
-
-}
-.active {
-
-}
-#contact-form {
-
-}
-.social-link {
-
-}
-.col-xs-10 .container-fluid {
-	min-height: 100%;
-}
-#innerpage {
-	background-color:#f0F9F9;
-	padding: 50vh;
-	border-radius: 8px;
-	max-height: fit-content;
-	margin: 50vh;
-	max-width: 80%;
-	color: var(--color-light-alt);
-}	
-#edu {
-
-}
-#edu-list {
-
-}   
-#skills {
-
-}
-.info {
-	list-style: none;
-} 
-#skills-list {
-
-}
-#xp {
-
-}     
-#xp-list {
-
-}
-#vol {
-
-}
-#vol-list {
-
-}
-.footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 30vh;
-	background-color: #4B1746;
-	color: #CB9CF2;
-	text-align: center;
-	margin-top: 50vh;
-}

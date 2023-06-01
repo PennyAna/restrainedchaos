@@ -27,7 +27,6 @@ body {
 }
 .container-fluid {
 	min-height: 100%;
-	margin: 0px;
 	display:grid;
 }
 .row {
@@ -56,6 +55,8 @@ body {
 #site-links {
 	position: fixed;
 	margin: 20px;
+	height: 20px;
+	width: auto;
 }
 /* reset 
 form input,

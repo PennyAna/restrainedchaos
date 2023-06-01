@@ -28,7 +28,7 @@ body {
 .row {
 	display:grid;
 }
-.col-xs-2 {
+.col-xs-2 .container-fluid {
 	min-height: 100%;
 }
 #sidenav {
@@ -164,7 +164,7 @@ form select {
 .social-link {
 
 }
-.col-xs-10 {
+.col-xs-10 .container-fluid {
 	min-height: 100%;
 }
 #innerpage {

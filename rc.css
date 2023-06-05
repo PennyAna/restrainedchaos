@@ -50,7 +50,7 @@ body {
 	width: 100%;
 }
 .navbar-brand {
-
+	height: 10px;
 }
 #site-links {
 	position: fixed;

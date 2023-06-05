@@ -45,8 +45,8 @@ body {
 	 max-width: 15%; */
 }
 .navbar-header {
-	margin: 3vh;
-	height: 10vh;
+	margin: 10px;
+	height: 10px;
 	width: 100%;
 }
 .navbar-brand {

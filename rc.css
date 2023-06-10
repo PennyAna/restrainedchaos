@@ -67,20 +67,17 @@ body {
 	width: min-content;
 	padding: 40vh;
 }
-#social1 {
-	height: 100%;
-	width: 100%;
-}
-#social2 {
-	height: 100%;
-	width: 100%;
+#social1, #social2 {
+	height: 30px;
+	width: auto;
 }
 .social-links {
 	align-content: center;
 	display: block;
 }
 .social-link-wrap {
-
+width: 100%;
+height: auto;
 }
 .nav {
 

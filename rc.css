@@ -8,6 +8,7 @@
 }
 html {
 	min-height: 100%;
+	overflow: hidden; /* Hide scrollbars */
 }
 body {
 	color: var(--color-light-alt);

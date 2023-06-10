@@ -31,9 +31,6 @@ body {
 	width: fit-content;	
 	max-width: 30%;
 }
-.nav-wrap {
-
-}
 #sidenav {
 	background-color: var(--color-dark-alt);
 	color: var(--color-light-alt);
@@ -96,7 +93,9 @@ height: auto;
 .social-link {
 
 }
-.page-wrap {
+.col-xs-10 {
+	width: fit-content;	
+	max-width: 70%;
 }
 #innerpage {
 	background-color:#f0F9F9;

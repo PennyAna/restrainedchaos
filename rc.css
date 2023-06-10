@@ -30,13 +30,18 @@ body {
 	width: fit-content;
 }
 .container-fluid {
-	min-height: 100%;
+	min-height: 1vh;
 	margin: 0px;
+}
+
+.nav-wrap {
+	height: 100%;
+	width: fit-content;
 }
 #sidenav {
 	background-color: var(--color-dark-alt);
 	height: 100%;
-	min-width:fit-content;
+	min-width: 30px;
 	color: var(--color-light-alt);
 	font-size: 20px;
 	margin: 0px;

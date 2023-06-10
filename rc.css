@@ -109,7 +109,7 @@ height: auto;
 	background-color:#f0F9F9;
 	padding: 50vh;
 	border-radius: 8px;
-	max-height: fit-content;
+	max-height: 80%;
 	margin: 50vh;
 	max-width: 80%;
 	color: var(--color-light-alt);

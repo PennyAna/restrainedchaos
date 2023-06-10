@@ -68,19 +68,19 @@ body {
 	padding: 40vh;
 }
 #social1 {
-	width: 10px;
-	height: 10px;
+	height: 100%;
+	width: 100%;
 }
 #social2 {
-	width: 10px;
-	height: 10px;
+	height: 100%;
+	width: 100%;
 }
 .social-links {
-	padding: 2vh;
-	width: 10vh;
-	height: auto;
 	align-content: center;
 	display: block;
+}
+.social-link-wrap {
+
 }
 .nav {
 

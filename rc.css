@@ -7,7 +7,7 @@
 	--color-light-alt: #56311d; /*antique brass*/
 }
 html {
-	min-height: 100%;
+	height: 100%;
 	overflow: hidden; /* Hide scrollbars */
 }
 body {
@@ -17,7 +17,7 @@ body {
 }
 @media screen and (min-width: 576px) {
 	.container-fluid {
-		background-color: hotpink;
+		background-color: ivory;
 	}
 }
 @media screen and (min-width: 768px) {
@@ -31,13 +31,11 @@ body {
 	width: fit-content;
 }
 .container-fluid {
-	height: 100%;
 	margin: 0px;
 }
 
 .nav-wrap {
-	height: 100%;
-	width: fit-content;
+	width: 30px;
 }
 #sidenav {
 	background-color: var(--color-dark-alt);
@@ -60,8 +58,8 @@ body {
 }
 #site-links {
 	position: fixed;
-	margin: 30vh;
-	height: 30vh;
+	margin: 20px;
+	height: 20px;
 	width: auto;
 }
 
@@ -71,7 +69,7 @@ body {
 	background-color: var(--color-light);
 	border-radius: 10px;
 	width: min-content;
-	padding: 40vh;
+	padding: 10px;
 }
 #social1, #social2 {
 	height: 30px;
@@ -104,14 +102,13 @@ height: auto;
 
 }
 .page-wrap {
-	height: 100%;
 }
 #innerpage {
 	background-color:#f0F9F9;
-	padding: 50vh;
+	padding: 10px;
 	border-radius: 8px;
 	max-height: 80%;
-	margin: 50vh;
+	margin: 10px;
 	max-width: 80%;
 	color: var(--color-light-alt);
 }	

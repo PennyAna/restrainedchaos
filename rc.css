@@ -30,7 +30,7 @@ body {
 	width: fit-content;
 }
 .container-fluid {
-	min-height: 100%;
+	height: 100%;
 	margin: 0px;
 }
 
@@ -101,6 +101,9 @@ height: auto;
 }
 .social-link {
 
+}
+.page-wrap {
+	height: 100%;
 }
 #innerpage {
 	background-color:#f0F9F9;

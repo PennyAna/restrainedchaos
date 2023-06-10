@@ -30,7 +30,7 @@ body {
 	width: fit-content;
 }
 .container-fluid {
-	min-height: 1vh;
+	min-height: 5vh;
 	margin: 0px;
 }
 

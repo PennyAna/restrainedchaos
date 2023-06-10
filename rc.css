@@ -28,19 +28,14 @@ body {
 .row {
 }
 .col-xs-2 {
-	width: fit-content;
+	width: fit-content;	
+	max-width: 30%;
 }
-.container-fluid {
-	margin: 0px;
-}
-
 .nav-wrap {
-	width: 30px;
+
 }
 #sidenav {
 	background-color: var(--color-dark-alt);
-	height: 100%;
-	min-width: 30%;
 	color: var(--color-light-alt);
 	font-size: 20px;
 	margin: 0px;
@@ -80,7 +75,7 @@ body {
 	display: block;
 }
 .social-link-wrap {
-width: 50px;
+width: 30px;
 height: auto;
 }
 .nav {

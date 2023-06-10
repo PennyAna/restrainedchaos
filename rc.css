@@ -93,8 +93,7 @@ height: auto;
 .social-link {
 
 }
-.col-xs-10 {
-	width: fit-content;	
+.col-xs-10 {	
 	max-width: 70%;
 }
 #innerpage {

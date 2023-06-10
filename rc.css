@@ -27,10 +27,21 @@ body {
 }
 .row {
 }
-.col-xs-2 {
+.nav-wrap {
 	width: fit-content;	
 	max-width: 30%;
+	padding: 1rem!important;
 }
+.flex-shrink-0 {
+	flex-shrink: 0!important;
+}
+.flex-column {
+	flex-direction: column!important;
+}
+.d-flex {
+	display: flex!important;
+}
+
 #sidenav {
 	background-color: var(--color-dark-alt);
 	color: var(--color-light-alt);
@@ -93,7 +104,7 @@ height: auto;
 .social-link {
 
 }
-.col-xs-10 {	
+.page-wrap {	
 	max-width: 70%;
 }
 #innerpage {

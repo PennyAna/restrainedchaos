@@ -29,6 +29,8 @@ main {
 	overflow-y: hidden;
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;
+	margin: 20px;
+	padding: 20px;
 }
 #social1, #social2 {
 	height: 50px;

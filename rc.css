@@ -29,7 +29,6 @@ main {
 	overflow-y: hidden;
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;
-	padding: 30px;
 }
 #social1, #social2 {
 	height: 50px;
@@ -45,6 +44,13 @@ a {
 }
 .nav-link {
 	color: var(--color-accent);
+}
+
+.innerpage {
+	background-color: var(--color-light);
+	width: 100%;
+	color: var(--color-dark);
+	padding: 30px;
 }
 .bacon-wrap {
 		width: 500px;

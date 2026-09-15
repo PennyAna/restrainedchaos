@@ -57,6 +57,12 @@ a {
 	padding: 10px;
 	color: var(--color-dark);
 }
+
+.aside {
+	font-size: 12px;
+	color: var(--color-dark-alt);
+
+}
 .b-example-divider {
 	flex-shrink: 0;
 	width: 1rem;

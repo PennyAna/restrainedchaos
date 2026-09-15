@@ -9,13 +9,13 @@
 
 body {
 	min-height: 100vh;
-	min-height: -webkit-fill-available;
+	min-height: auto;
 	font-family: 'Roboto', sans-serif;
 	overflow: auto;
 }
   
 html {
-	height: -webkit-fill-available;
+	height: auto;
 	/*overflow: hidden;*/ 
 }
   
@@ -23,7 +23,7 @@ main {
 	display: flex;
 	flex-wrap: nowrap;
 	height: auto;
-	height: -webkit-fill-available;
+	height: auto;
 	max-height: auto;	
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;

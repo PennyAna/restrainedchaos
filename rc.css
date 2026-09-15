@@ -11,7 +11,6 @@ body {
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 	font-family: 'Roboto', sans-serif;
-	font-size: 17px;
 }
   
 html {
@@ -25,10 +24,10 @@ main {
 	height: 100vh;
 	height: -webkit-fill-available;
 	max-height: 100vh;
-	overflow-y: hidden;
-	overflow-x: scroll;
+	overflow: auto;
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size: 17px;
 }
 #social1, #social2 {
 	height: 50px;
@@ -38,6 +37,7 @@ main {
 	background-color: var(--color-dark-alt);
 	width: 10rem;
 	color: var(--color-accent);
+
 }
 a {
 		color: var(--color-accent);
@@ -51,6 +51,7 @@ a {
 	width: 100%;
 	color: var(--color-dark);
 	padding: 30px;
+	font-size: 13px;
 }
 .bacon-wrap {
 		width: 500px;

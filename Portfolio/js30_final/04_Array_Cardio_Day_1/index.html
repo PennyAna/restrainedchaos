@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Array Cardio 💪</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div id="errorDiv" class="render"></div>
+  <button id="resetBtn" type="reset" class="button">Reset All</button>
+  <!--TODO style all-->
+  <!--TODO complete TODOs in JS-->
+  <p id="inventorInstruct" class="instruction">We have a secret array of Inventors. Click on the following buttons to filter, sort, and do other fancy operations on this array and render the results.</p>
+  
+  <p id="paraFilter" class="description">Filter the list of inventors for those who were born in the 1500's</p>
+  <button id="btnFilter" class="button filter" type="submit">Click Me!</button>
+  <div id="fillFilter" class="render"></div>
+  
+  <p id="paraMap" class="description">Give us an array of the inventors first and last names</p>
+  <button id="btnMap" class="button map" type="submit">Click Me!</button>
+  <div id="fillMap" class="render"></div>
+  
+  <p id="paraSort" class="description"> Sort the inventors by birthdate, oldest to youngest</p>
+  <button id="btnSort" class="button sort0" type="submit">Click Me!</button>
+  <div id="fillSort" class="render"></div>
+  
+  <p id="paraReduce" class="description">How many years did all the inventors live altogether?</p>
+  <button id="btnReduce" class="button reduce0" type="submit">Click Me!</button>
+  <div id="fillReduce" class="render"></div>
+  
+  <p id="paraLifeTime" class="description"> Sort the inventors by years lived</p>
+  <button id="btnLifetime" class="button sort1" type="submit">Click Me!</button>
+  <div id="fillLifetime" class="render"></div>
+
+  <p id="peopleInstruct" class="instruction">This secret array contains a list of people (last name, first name). Click the button to sort them by last name.</p>  
+  
+  <p id="paraAlphaSort" class="description">Sort the people alphabetically by last name</p>
+  <button id="btnAlphaSort" class="button sort2" type="submit">Click Me!</button>
+  <div id="fillAlphaSort" class="render"></div>
+  
+  <p id="transportInstruct" class="instruction">Another secret array: this one contains answers to a poll on preferred methods of transportation. Click the button to see the results.</p>
+  
+  <p id="paraSum" class="description">Sum up the instances of each of these</p>
+  <button id="btnSum" class="button reduce1" type="submit">Click Me!</button>
+  <div id="fillSum" class="render"></div>
+
+  <p id="parisInstruct" class="instruction">Bonus secret array: click the button to render a list of Paris Boulevards containing the phrase 'de'.</p>
+ 
+  <p id="paraParis" class="description">create a list of Boulevards in Paris that contain 'de' anywhere in the name</p>
+  <button id="btnParis" class="button paris" type="submit">Click Me!</button>
+  <div id="fillParis" class="render"></div>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+html {
+    background: #018DED;
+    background-size: cover;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    width: 50rem;
+    height: 50rem;
+    border: 20px solid black;
+    /*border-radius: 50%;*/
+    margin: 50px auto;
+    position: relative;
+ 
+    box-shadow:
+    0 0 0 4px rgba(0,0,0,0.1),
+    inset 0 0 0 3px #EFEFEF,
+    inset 0 0 10px black,
+    0 0 10px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+    background-image: url(./colors_clock_face.png);
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px); /* account for the height of the clock hands */
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: rgb(8, 8, 128);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function:cubic-bezier(1, 0, 0, 1);
+}
+.second-hand {
+    background: darkred;
+}
+.number-face {
+    align-items: center;
+
+}
+
+.number {
+    position: inherit;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: darkblue;
+    font-weight: bold;
+    font-family: Garamond, serif;
+    font-size: 40px;
+}
+
+.twelve {
+    position:absolute;
+    justify-content: center top;
+    top: 20%;
+}
+
+.nine {
+    position: absolute;
+    justify-content: center left;
+    left: 20%;
+    transform: translateX(50%);
+}
+
+.six {
+    position: absolute;
+    justify-content: center right;
+    right: 20%;
+    transform: translateX(50%);
+}
+
+.three {
+    position: absolute;
+    justify-content: center bottom;
+    bottom: 20%;
+    transform: translateY(80%);
+}
+

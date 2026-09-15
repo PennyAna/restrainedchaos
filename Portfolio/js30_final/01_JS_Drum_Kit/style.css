@@ -1,0 +1,74 @@
+html {
+  font-size: 10px;
+  background: url('./wood_background.jpg') bottom center; 
+  /*https://www.barnfurnituremart.com/images/D/BFJADBP4818CK2_AP6.jpg*/
+  background-size: cover;
+}
+
+body,html {
+  margin: 0;
+  padding: 0; 
+  font-family: sans-serif;
+  font-size: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .4rem solid goldenrod;
+  border-radius: 10rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 2rem .7rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: gold;
+  background: url('./wood_background.jpg') rgba(158, 74, 6, 0.4);
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: goldenrod;
+}
+
+#instruct {
+  padding: 10px;
+  margin: 15px;
+  height: 80px;
+  box-shadow: 0 0 1rem #ffc600;
+  border-radius: 5rem;
+  /* background: hsla(270, 94%, 25%, 1);
+  background: linear-gradient(to right, hsla(270, 94%, 25%, 1) 0%, rgb(124, 62, 185), hsla(158, 94%, 49%, 1) 100%);
+ */} 
+
+#instructText {
+  text-align: center;
+  align-content: center;
+  color: gold;
+  text-shadow: 0 0 .5rem black;
+  font-size: 30px;
+  font-family: Garamond, serif;
+  font-weight: bold;
+}

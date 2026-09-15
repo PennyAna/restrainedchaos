@@ -22,9 +22,9 @@ html {
 main {
 	display: flex;
 	flex-wrap: nowrap;
-	height: 100vh;
+	height: auto;
 	height: -webkit-fill-available;
-	max-height: 100vh;	
+	max-height: auto;	
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;
@@ -50,11 +50,11 @@ a {
 	background-color: var(--color-light);
 	width: 100%;
 	color: var(--color-dark);
-	padding: 30px;
+	padding: 20px;
 	font-size: 13px;
 }
 .bacon-wrap {
-		width: 500px;
+	width: 500px;
 	height: auto;
 	margin: 10px;
 	padding: 10px;

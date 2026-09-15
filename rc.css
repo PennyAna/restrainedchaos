@@ -11,6 +11,7 @@ body {
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 	font-family: 'Roboto', sans-serif;
+	overflow: auto;
 }
   
 html {
@@ -23,8 +24,7 @@ main {
 	flex-wrap: nowrap;
 	height: 100vh;
 	height: -webkit-fill-available;
-	max-height: 100vh;
-	overflow: auto;
+	max-height: 100vh;	
 	background-color: var(--color-light);
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	font-size: 17px;

@@ -58,6 +58,15 @@ a {
 	color: var(--color-dark);
 }
 
+.coverletter {
+	width: 500px;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	color: var(--color-dark);
+	font-size: 20px;
+}
+
 .aside {
 	font-size: 12px;
 	color: var(--color-dark-alt);
